@@ -9,7 +9,7 @@ module.exports = {
       experimentalObjectRestSpread: true, // ...rest参数和扩展扩算符
       jsx: true,
     },
-    sourceType: 'script', // 默认script，可选module
+    sourceType: 'module', // 默认script，可选module
   },
 
   env: { // 环境设置，关系到可用的全局变量
