@@ -34,7 +34,7 @@ module.exports = {
     'block-spacing': [2, 'always'], // 单行{}前后有空格
     'brace-style': [2, '1tbs', { 'allowSingleLine': true }], // {}换行，单行不用
     'camelcase': [2, { 'properties': 'never' }], // 属性名可以不是驼峰
-    'comma-dangle': [2, 'always'], // 数组/对象最后一个必须有,
+    'comma-dangle': [2, 'never'], // 数组/对象最后一个必须有,
     'comma-spacing': [2, { 'before': false, 'after': true }], // ,前有空格, 后无空格
     'comma-style': [2, 'last'], // ,在最后，不能换行
     'constructor-super': 2, // super()在必须构造函数内
