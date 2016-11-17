@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "extends": "xiaoping",
+  "plugins": [
+    "html",
+    "import"
+  ],
+  "rules": {}
+}

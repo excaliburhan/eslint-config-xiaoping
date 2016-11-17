@@ -18,7 +18,7 @@ module.exports = {
     browser: true,
   },
 
-  // plugins: ['import'], // 第三方插件，需要npm安装支持，形式为eslint-plugin-xxx
+  // plugins: ['html', 'import'], // 第三方插件，需要npm安装支持，形式为eslint-plugin-xxx
 
   globals: { // 全局变量，false代表无法重写
     document: false,
