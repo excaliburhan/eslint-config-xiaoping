@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-xiaoping",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "eslint config for xiaoping",
   "main": "index.js",
   "repository": {
@@ -17,6 +17,9 @@
     "url": "https://github.com/excaliburhan/eslint-config-xiaoping/issues"
   },
   "homepage": "https://github.com/excaliburhan/eslint-config-xiaoping#readme",
+  "dependencies": {
+    "eslint": "^2.0.0 || ^3.0.0"
+  },
   "peerDependencies": {
     "eslint": "^2.0.0 || ^3.0.0"
   }
