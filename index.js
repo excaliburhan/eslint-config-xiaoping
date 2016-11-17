@@ -15,6 +15,7 @@ module.exports = {
   env: { // 环境设置，关系到可用的全局变量
     es6: true,
     node: true,
+    browser: true,
   },
 
   // plugins: ['import'], // 第三方插件，需要npm安装支持，形式为eslint-plugin-xxx
@@ -130,7 +131,7 @@ module.exports = {
     'semi': [2, 'never'], // 禁用结尾;
     'semi-spacing': [2, { 'before': false, 'after': true }], // ;前有空格, 后无空格
     'space-before-blocks': [2, 'always'], // 作用域前有空格
-    'space-before-function-paren': [2, 'always'], // 函数括号前有空格
+    'space-before-function-paren': [2, 'never'], // 函数括号无空格
     'space-in-parens': [2, 'never'], // 括号内无空格
     'space-infix-ops': 2, // 插入的操作符需要空格, 如+/-
     'space-unary-ops': [2, { 'words': true, 'nonwords': false }], // 操作符单词类要空格(new/delete), 非单词不要空格(++/--/!)
