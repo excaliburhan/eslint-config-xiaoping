@@ -1,2 +1,2 @@
 # eslint-config-xiaoping
-my eslint config
+eslint config for xiaoping projects
