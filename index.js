@@ -135,7 +135,7 @@ module.exports = {
     'space-in-parens': [2, 'never'], // 括号内无空格
     'space-infix-ops': 2, // 插入的操作符需要空格, 如+/-
     'space-unary-ops': [2, { 'words': true, 'nonwords': false }], // 操作符单词类要空格(new/delete), 非单词不要空格(++/--/!)
-    'spaced-comment': [2, 'always', { 'markers': ['!', ','] }], // 注释要空格，markers为例外
+    'spaced-comment': [2, 'always', { 'markers': ['!', ',', '/', '-'] }], // 注释要空格，markers为例外
     'template-curly-spacing': [2, 'never'], // 模版字符串中变量无空格
     'use-isnan': 2, // 使用isNaN
     'valid-typeof': 2, // typeof的字符串必须正确
