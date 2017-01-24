@@ -126,7 +126,6 @@ module.exports = {
     'one-var': [2, { 'initialized': 'never' }], // 只能一个var, 初始化不检查
     'operator-linebreak': [2, 'after', { 'overrides': { '?': 'before', ':': 'before' } }], // 操作符换行, 默认在行末, ?和:在下一行前
     'padded-blocks': [2, 'never'], // 作用域中没有padded的空行
-    'prefer-const': 2, // 能用const场景用const
     'quotes': [2, 'single', { 'avoidEscape': true, 'allowTemplateLiterals': true }], // 使用单引号, 转义或者模版可以例外
     'semi': [2, 'never'], // 禁用结尾;
     'semi-spacing': [2, { 'before': false, 'after': true }], // ;前有空格, 后无空格
@@ -143,6 +142,7 @@ module.exports = {
     'yield-star-spacing': [2, 'both'], // yield的*前后有空格
     'yoda': [2, 'never'], // 条件中变量在前
 
+    'prefer-const': 0, // 能用const场景用const
     'no-useless-escape': 0, // 不检查escape
   }
 }
