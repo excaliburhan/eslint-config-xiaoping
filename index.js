@@ -57,7 +57,6 @@ module.exports = {
     'no-cond-assign': 2, // 条件不能有赋值
     'no-const-assign': 2, // 禁止赋值常量(const)
     'no-control-regex': 2, // reg中不能有控制符号
-    'no-debugger': 2, // 禁止debugger
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0, // node环境prod禁用
     'no-delete-var': 2, // 不能delete变量，可以用在对象
     'no-dupe-args': 2, // 参数不能重复
@@ -130,7 +129,6 @@ module.exports = {
     'semi': [2, 'never'], // 禁用结尾;
     'semi-spacing': [2, { 'before': false, 'after': true }], // ;前有空格, 后无空格
     'space-before-blocks': [2, 'always'], // 作用域前有空格
-    'space-before-function-paren': [2, 'never'], // 函数括号无空格
     'space-in-parens': [2, 'never'], // 括号内无空格
     'space-infix-ops': 2, // 插入的操作符需要空格, 如+/-
     'space-unary-ops': [2, { 'words': true, 'nonwords': false }], // 操作符单词类要空格(new/delete), 非单词不要空格(++/--/!)
@@ -144,5 +142,6 @@ module.exports = {
 
     'prefer-const': 0, // 能用const场景用const
     'no-useless-escape': 0, // 不检查escape
+    'space-before-function-paren': 0, // 函数括号无空格
   }
 }
