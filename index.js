@@ -7,7 +7,7 @@ module.exports = {
     ecmaVersion: 6, // 使用es6
     ecmaFeatures: { // 其他语言特性
       experimentalObjectRestSpread: true, // ...rest参数和扩展扩算符
-      jsx: true,
+      jsx: false,
     },
     sourceType: 'module', // 默认script，可选module
   },
