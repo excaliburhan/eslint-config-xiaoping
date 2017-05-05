@@ -1,11 +1,11 @@
 {
-  "name": "eslint-config-xiaoping",
+  "name": "eslint-config-xp",
   "version": "1.1.1",
   "description": "eslint config for xiaoping",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/excaliburhan/eslint-config-xiaoping.git"
+    "url": "git+https://github.com/excaliburhan/eslint-config-xp.git"
   },
   "keywords": [
     "eslint",
@@ -14,9 +14,9 @@
   "author": "xiaoping",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/excaliburhan/eslint-config-xiaoping/issues"
+    "url": "https://github.com/excaliburhan/eslint-config-xp/issues"
   },
-  "homepage": "https://github.com/excaliburhan/eslint-config-xiaoping#readme",
+  "homepage": "https://github.com/excaliburhan/eslint-config-xp#readme",
   "dependencies": {
     "eslint": "^2.0.0 || ^3.0.0"
   },
