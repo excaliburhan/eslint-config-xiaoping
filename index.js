@@ -3,6 +3,7 @@
  */
 
 module.exports = {
+  parser: "babel-eslint",
   parserOptions: {
     ecmaVersion: 8, // es 版本
     ecmaFeatures: { // 其他语言特性
@@ -10,6 +11,7 @@ module.exports = {
       jsx: true,
     },
     sourceType: 'module', // 默认script，可选module
+    allowImportExportEverywhere: true // 允许任意位置使用import
   },
 
   env: { // 环境设置，关系到可用的全局变量
