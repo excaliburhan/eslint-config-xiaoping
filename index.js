@@ -43,7 +43,6 @@ module.exports = {
     'eqeqeq': [2, 'allow-null'], // 要求使用 === 和 !==
     'handle-callback-err': [2, '^(err|error)$' ], // 要求回调函数中有容错处理
     'indent': [2, 2], // 强制使用一致的缩进
-    'jsx-quotes': [2, 'prefer-single'], // 强制在 JSX 属性中一致地使用双引号或单引号
     'key-spacing': [2, { 'beforeColon': false, 'afterColon': true }], // 强制在对象字面量的属性中键和值之间使用一致的间距
     'keyword-spacing': [2, { 'before': true, 'after': true }], // 强制在关键字前后使用一致的空格
     'new-cap': [2, { 'newIsCap': true, 'capIsNew': false }], // 要求构造函数首字母大写
@@ -112,8 +111,6 @@ module.exports = {
     'one-var': [2, { 'initialized': 'never' }], // 强制函数中的变量要么一起声明要么分开声明
     'operator-linebreak': [2, 'after', { 'overrides': { '?': 'before', ':': 'before' } }], // 强制操作符使用一致的换行符
     'padded-blocks': [2, 'never'], // 要求或禁止块内填充
-    'quotes': [2, 'single', { 'avoidEscape': true, 'allowTemplateLiterals': true }], // 强制使用一致的反勾号、双引号或单引号
-    'semi-spacing': [2, { 'before': false, 'after': true }], // 强制分号之前和之后使用一致的空格
     'space-before-blocks': [2, 'always'], // 强制在块之前使用一致的空格
     'template-curly-spacing': [2, 'never'], // 要求或禁止模板字符串中的嵌入表达式周围空格的使用
     'use-isnan': 2, // 要求使用 isNaN() 检查 NaN
@@ -121,18 +118,5 @@ module.exports = {
     'wrap-iife': [2, 'any'], // 要求 IIFE 使用括号括起来
     'yield-star-spacing': [2, 'both'], // 强制在 yield* 表达式中 * 周围使用空格
     'yoda': [2, 'never'], // 要求或禁止 “Yoda” 条件
-
-    'arrow-spacing': 0, // 强制箭头函数的箭头前后使用一致的空格
-    'array-bracket-spacing': 0, // 强制数组方括号中使用一致的空格
-    'block-spacing': 0, // 禁止或强制在单行代码块中使用空格
-    'generator-star-spacing': 0, // 强制 generator 函数中 * 号周围使用一致的空格
-    'object-curly-spacing': 0, // 强制在大括号中使用一致的空格
-    'prefer-const': 0, // 要求使用 const 声明那些声明后不再被修改的变量
-    'no-useless-escape': 0, // 禁用不必要的转义字符
-    'space-before-function-paren': 0, // 强制在 function的左括号之前使用一致的空格
-    'space-in-parens': 0, // 强制在圆括号内使用一致的空格
-    'space-infix-ops': 0, // 要求操作符周围有空格
-    'space-unary-ops': 0, // 强制在一元操作符前后使用一致的空格
-    'spaced-comment': 0, // 强制在注释中 // 或 /* 使用一致的空格
   }
 }
